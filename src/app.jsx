@@ -4,6 +4,7 @@ import Main from "./pages/Main";
 import List from "./pages/List";
 import EasterEgg from "./Mission/EasterEgg";
 import styled from "styled-components";
+import Days from "./Mission/100days";
 
 const Wrap = styled.div`
   height: 100%;
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/list" element={<List />} />
           <Route path="/EasterEgg" element={<EasterEgg />} />
+          <Route path="/100days" element={<Days />} />
         </Routes>
       </Wrap>
     </BrowserRouter>

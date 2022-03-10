@@ -8,6 +8,14 @@ export default function Card() {
   const clickHandler = () => {
     navigate("/EasterEgg");
   };
+  const clickHandler2 = () => {
+    navigate("/100days");
+  };
 
-  return <button onClick={() => clickHandler()}>click here</button>;
+  return (
+    <>
+      <button onClick={() => clickHandler()}>EasterEgg</button>
+      <button onClick={() => clickHandler2()}>100days</button>;
+    </>
+  );
 }

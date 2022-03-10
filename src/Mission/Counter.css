@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 .frame {
   position: absolute;
@@ -16,10 +16,6 @@
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#button {
-  display: none;
 }
 
 .icon {
@@ -141,4 +137,4 @@
       transform: translateY(($i * -40) + px);
     }
   }
-}
+} */
